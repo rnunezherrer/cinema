@@ -12,6 +12,18 @@
 
 namespace App\Models{
 /**
+ * App\Models\Movie
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie query()
+ * @mixin \Eloquent
+ */
+	class IdeHelperMovie {}
+}
+
+namespace App\Models{
+/**
  * App\Models\User
  *
  * @property int $id
