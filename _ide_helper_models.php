@@ -14,9 +14,24 @@ namespace App\Models{
 /**
  * App\Models\Movie
  *
+ * @property int $id
+ * @property string $name
+ * @property string $publication_date
+ * @property string|null $file_path
+ * @property bool $is_active
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Database\Factories\MovieFactory factory(...$parameters)
  * @method static \Illuminate\Database\Eloquent\Builder|Movie newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Movie newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Movie query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereFilePath($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereIsActive($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie wherePublicationDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Movie whereUpdatedAt($value)
  * @mixin \Eloquent
  */
 	class IdeHelperMovie {}
